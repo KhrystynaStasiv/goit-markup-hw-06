@@ -26,7 +26,7 @@
     <button class="menu-btn" type="menu"><svg width="24" height="24">
         <use href="./images/icons.svg#icon-heroicons-solid_menu-1"></use></svg></button>
 
-<div class="mob-menu is-open">
+<div class="mob-menu">
     <div>
         <button type="button" class="menu-close-btn">
             <svg class="close-icon-btn" width="24" height="24">
@@ -320,8 +320,14 @@
         <h2 class="portfolio-title">Our Portfolio</h2>
         <ul class="portfolio-img-list">
             <li class="portfolio-item">
-                <div class="cover-img">    
-                <img class="portfolio-picture" src="./images/bank.jpg" alt="Banking App" width="360" />
+                <div class="cover-img">
+                    <picture>
+                        <source media="(max-width:767px)" srcset="./images/bank-mob-1x.jpg 1x, ./images/bank-mob-2x 2x">
+                        <source media="(min-width:768px)" srcset="./images/bank-tab-1x.jpg 1x, ./images/bank-tab-2x 2x">
+                        <source media="(min-width:1158px)" srcset="./images/bank-desk-1x.jpg 1x, ./images/bank-desk-2x 2x">
+                        <img class="portfolio-picture" src="./images/bank.jpg" alt="Banking App" width="360" />
+                    </picture>    
+        
                 <p class="cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                     Ecommerce
@@ -334,7 +340,13 @@
             </li>
             <li class="portfolio-item">
                 <div class="cover-img">
-                <img class="portfolio-picture" src="./images/phone.jpg" alt="Cashless Payment" width="360" />
+                    <picture>
+                        <source media="(max-width:767px)" srcset="./images/pay-mob-1x.jpg 1x, ./images/pay-mob-2x 2x">
+                        <source media="(min-width:768px)" srcset="./images/pay-tab-1x.jpg 1x, ./images/pay-tab-2x 2x">
+                        <source media="(min-width:1158px)" srcset="./images/pay-desk-1x.jpg 1x, ./images/pay-desk-2x 2x">
+                        <img class="portfolio-picture" src="./images/phone.jpg" alt="Cashless Payment" width="360" />
+                    </picture>
+                
                 <p class="cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                     Ecommerce
@@ -347,7 +359,12 @@
             </li>
             <li class="portfolio-item">
                 <div class="cover-img">
+                    <picture>
+                        <source media="(max-width:767px)" srcset="./images/medit-mob-1x.jpg 1x, ./images/medit-mob-2x 2x">
+                        <source media="(min-width:768px)" srcset="./images/medit-tab-1x.jpg 1x, ./images/medit-tab-2x 2x">
+                        <source media="(min-width:1158px)" srcset="./images/medit-desk-1x.jpg 1x, ./images/medit-desk-2x 2x">
                 <img class="portfolio-picture" src="./images/comp.jpg" alt="Meditation App" width="360" />
+                    </picture>
                 <p class="cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                     Ecommerce
@@ -360,7 +377,12 @@
             </li>
             <li class="portfolio-item">
                 <div class="cover-img">
+                    <picture>
+                        <source media="(max-width:767px)" srcset="./images/taxi-mob-1x.jpg 1x, ./images/taxi-mob-2x 2x">
+                        <source media="(min-width:768px)" srcset="./images/taxi-tab-1x.jpg 1x, ./images/taxi-tab-2x 2x">
+                        <source media="(min-width:1158px)" srcset="./images/taxi-desk-1x.jpg 1x, ./images/taxi-desk-2x 2x">
                 <img class="portfolio-picture" src="./images/car.jpg" alt="Taxi Service" width="360" />
+                    </picture>
                 <p class="cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                     Ecommerce
@@ -373,7 +395,12 @@
             </li>
             <li class="portfolio-item">
                 <div class="cover-img">
+                    <picture>
+                        <source media="(max-width:767px)" srcset="./images/screen-mob-1x.jpg 1x, ./images/screen-mob-2x 2x">
+                        <source media="(min-width:768px)" srcset="./images/screen-tab-1x.jpg 1x, ./images/screen-tab-2x 2x">
+                        <source media="(min-width:1158px)" srcset="./images/screen-desk-1x.jpg 1x, ./images/screen-desk-2x 2x">
                 <img class="portfolio-picture" src="./images/moon.jpg" alt="Screen Illustrations" width="360" />
+                    </picture>
                 <p class="cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                     Ecommerce
@@ -385,8 +412,13 @@
                 <p class="portfolio-list-text">Design</p></div>
             </li>
             <li class="portfolio-item">
-                <div class="cover-img">   
+                <div class="cover-img">
+                    <picture>
+                        <source media="(min-width:1158px)" srcset="./images/online-desk-1x.jpg 1x, ./images/online-desk-2x 2x">
+                        <source media="(min-width:768px)" srcset="./images/online-tab-1x.jpg 1x, ./images/online-tab-2x 2x">
+                        <source media="(max-width:767px)" srcset="./images/online-mob-1x.jpg 1x, ./images/online-mob-2x 2x">
                 <img class="portfolio-picture" src="./images/girl.jpg" alt="Online Courses" width="360" />
+                    </picture>
                 <p class="cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                     Ecommerce
@@ -448,6 +480,7 @@
                 <label class="input-label">
                <input class="input-email" type="email" name="user-email" placeholder="E-mail" />
                 </label>
+                
             <button class="input-btn" type="submit">Subscribe
             <svg class="send-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-Frame-3-1">
