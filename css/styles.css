@@ -621,6 +621,9 @@ a {
     padding-top: 96px;
     padding-bottom: 96px;
 }
+.team-container {
+    max-width: 552px;
+}
 .card {
     display: flex;
     flex-wrap: wrap;
