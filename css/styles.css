@@ -432,7 +432,7 @@ a {
 /*======================VALUES==========================*/
 .values {
     padding-top: 96px;
-    padding-bottom: 48px;
+    padding-bottom: 96px;
 }
 .values-list {
     display: flex;
@@ -487,7 +487,7 @@ a {
 @media screen and (min-width:1158px) {
 .values {
     padding-top: 120px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
 }
 .container {
     max-width: 1440px;
