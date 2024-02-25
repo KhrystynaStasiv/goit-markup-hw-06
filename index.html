@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
-<body class="body">
+<!-- <body class="body">
 <header class="header">
     <div class="container header-container">
-    <nav class="header-nav">
+    <div class="logo-btn">
+        <nav class="header-nav">
         <a class="header-logo" href="./index.html">Web<span class="accent-studio">Studio</span></a>
          <ul class="header-menu">
             <li><a class="menu-link current" href="./index.html" target="_blank">Studio</a></li>
@@ -23,10 +24,25 @@
             <li><a class="menu-link" href="" target="_blank">Contacts</a></li>
         </ul>
     </nav>
-    <button class="menu-btn" type="menu"><svg width="24" height="24">
-        <use href="./images/icons.svg#icon-heroicons-solid_menu-1"></use></svg></button>
+<button class="menu-btn" type="button">
+    <svg width="24" height="24">
+        <use href="./images/icons.svg#icon-heroicons-solid_menu-1"></use>
+    </svg>
+</button>
+    </div>
 
-<div class="mob-menu is open">
+        <address class="header-address">
+            <ul class="header-contacts">
+                <li class="header-contacts-list">
+                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="header-contacts-list">
+                    <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
+        </address>
+
+<div class="mob-menu">
     <div>
         <button type="button" class="menu-close-btn">
             <svg class="close-icon-btn" width="24" height="24">
@@ -40,7 +56,7 @@
                 <li><a class="nav-menu-link" href="" target="_blank">Contacts</a></li>
             </ul>
         </div>
-        </div>
+    </div>
         <address class="mob-address">
             <ul class="mob-contacts">
                 <li class="mob-contacts-list">
@@ -84,17 +100,8 @@
             </ul>
         </div>
 </div>
-        <address class="header-address">
-            <ul class="header-contacts">
-                <li class="header-contacts-list">
-                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="header-contacts-list">
-                    <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-            </li>
-        </ul>
-    </address>
-    </div>
+
+</div>
 </header> 
      
 <main>
@@ -320,9 +327,9 @@
             <li class="portfolio-item">
                 <div class="cover-img">
                     <picture>
-                        <source media="(max-width:767px)" srcset="./images/bank-mob-1x.jpg 1x, ./images/bank-mob-2x 2x" >
-                        <source media="(max-width:768px)" srcset="./images/bank-tab-1x.jpg 1x, ./images/bank-tab-2x 2x" >
-                        <source media="(max-width:1158px)" srcset="./images/bank-desk-1x.jpg 1x, ./images/bank-desk-2x 2x" >
+                        <source media="(max-width:767px)" srcset="./images/bank-mob-1x.jpg 1x, ./images/bank-mob-2x.jpg 2x" >
+                        <source media="(max-width:768px)" srcset="./images/bank-tab-1x.jpg 1x, ./images/bank-tab-2x.jpg 2x" >
+                        <source media="(max-width:1158px)" srcset="./images/bank-desk-1x.jpg 1x, ./images/bank-desk-2x.jpg 2x" >
                         <img class="portfolio-picture" src="./images/bank.jpg" alt="Banking App" width="360" />
                     </picture>    
         
@@ -430,15 +437,16 @@
         </ul>
         </div>
     </section>
-</main> 
+</main>  -->
 
 <footer class="footer">
-        <div class="container footer-container">
-            <div class="logo-text">
+    <div class="container footer-container">
+        <div class="logo-text">
         <a class="footer-logo" href="./index.html">Web<span class="accent-footer-studio">Studio</span></a>
         <p class="footer-text">
             Increase the flow of customers and sales for your business with digital marketing & growth solutions.
-        </p></div>
+        </p>
+       </div>
         <div class="social-media">
             <p class="footer-soc">Social media</p>
             <ul class="soc-list-footer">
@@ -483,9 +491,11 @@
             <svg class="send-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-Frame-3-1">
                 </use>
-            </svg></button>
+            </svg>
+            </button>
             </form>
         </div>
+    </div>
     </footer> 
 
 <div class="backdrop isopen">
