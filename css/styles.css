@@ -622,7 +622,7 @@ a {
     padding-top: 96px;
     padding-bottom: 96px;
 }
-.team-container {
+.team > .container {
     max-width: 552px;
 }
 .card {
@@ -643,7 +643,7 @@ a {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.team-container {
+.team>.container {
     max-width: 1158px;
 }
 .card {
@@ -761,6 +761,9 @@ a {
     padding: 32px 16px;
 }
 @media screen and (min-width:768px) {
+.container {
+    max-width: 768px;
+}
 .portfolio-img-list {
     align-items: center;
     justify-content: center;
